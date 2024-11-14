@@ -19,7 +19,7 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git push https://se0kcess${{ secrets.GH_PAT }}@github.com/se0kcess/velog_2_github.git
+          git push https://minseok${{ secrets.GH_PAT }}@github.com/se0kcess/velog_2_github.git
 
       - name: Set up Python
         uses: actions/setup-python@v2
